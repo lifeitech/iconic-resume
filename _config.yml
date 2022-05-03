@@ -129,7 +129,7 @@ programming:
   -
     icon: css.png
     name: CSS
-    url: 'https://github.com/lifeitech/resume-html/style.scss'
+    url: 'https://github.com/lifeitech/resume/blob/master/style.scss'
   -
     icon: latex.png
     name: LaTeX

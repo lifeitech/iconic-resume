@@ -168,8 +168,9 @@ footer {
     color: gray;
     margin-top: 10mm;
 
-    a {
+    a, a:visited {
         text-decoration: none;
+        color: #214485;
     } 
 }
 
