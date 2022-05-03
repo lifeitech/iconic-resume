@@ -1,0 +1,11 @@
+
+{% for exp in site.experience %}
+{% include entry.html 
+                     icon = exp.icon
+                     title = exp.company
+                     subtitle = exp.role
+                     description = exp.description
+                     loc = exp.loc
+                     time = exp.time
+ %}
+{% endfor %}

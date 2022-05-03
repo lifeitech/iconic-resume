@@ -1,0 +1,11 @@
+
+{% for edu in site.education %}
+{% include entry.html 
+                     icon = edu.icon
+                     title = edu.school
+                     subtitle = edu.degree
+                     description = edu.description
+                     loc = edu.loc
+                     time = edu.time
+ %}
+{% endfor %}

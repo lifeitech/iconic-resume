@@ -1,0 +1,181 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+html,body{
+    height: 297mm;
+    width: 210mm; 
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+}
+
+.header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    margin-bottom: 0;
+    .name {
+      font-size: 40pt;
+      font-weight: normal;
+      font-family: 'Pinyon Script', cursive;
+
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14pt;
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-img {
+    width: 20px;
+    height: 20px;
+    } 
+}
+
+.web-address {
+    font-size: 22pt;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 5pt;
+    a {
+        text-decoration: none;
+        color: #214485;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160mm;
+    font-size: 12pt;
+    margin-top: 9pt;
+    margin-bottom: 9pt;
+}
+
+// programming icons
+.pgm-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 170mm;
+
+}
+
+.pgm-item {
+    display: inline-block;
+    line-height: 1rem;
+    font-size: 1rem;
+    background: none;
+    border: 2px solid #ACAAAA;
+    border-radius: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    margin: 0 0.35rem 0.5rem 0;
+    text-decoration: none;
+    color: gray;
+
+.pgm-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.pgm-img {
+    width: 20px;  // 20px
+    height: 20px;  // 20px
+    } 
+}  // programming icons end
+
+.entry {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+.entry-img {
+    height: 44px;
+    width: 44px;
+    margin-right: 5px;
+    }
+
+.title {
+    font-size: 16pt;
+    font-weight: 600;
+
+    }
+.subtitle {
+    font-size: 14pt;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+.entry-items {
+    display: flex;
+    flex-direction: column;
+    }
+
+.loc {
+    float: right;
+    color: #BDC3C7;
+    }
+.time {
+    float: right;
+    position: relative;
+    text-align: right;
+    color: #BDC3C7;
+    }
+
+} // class="entry" style end
+
+.hr-fade {
+    border: 0;
+    padding-top: 1px;
+    background: linear-gradient(to right, transparent, #d0d0d5, transparent);
+}
+
+footer {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: gray;
+    margin-top: 10mm;
+
+    a {
+        text-decoration: none;
+    } 
+}
+
+@media print {
+    body{
+        height: 297mm;
+        width: 210mm;
+   } 
+}

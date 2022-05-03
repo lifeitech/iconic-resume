@@ -1,0 +1,7 @@
+<span class="contact">
+{% for link in site.links %}
+<a href="{{link.url}}" title="{{link.name}}">
+     <img class="link-img" src="{{link.icon | prepend: "/imgs/"}}">
+</a>
+{% endfor %}
+</span>

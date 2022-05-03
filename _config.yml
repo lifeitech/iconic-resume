@@ -1,0 +1,136 @@
+name: Fei Li
+########### Education
+education:
+  -
+    icon: bocconi.png
+    school: Bocconi University
+    degree: MSc. in Data Science
+    loc: Milan, Italy
+    time: 2018 ~ 2020 &middot; 2 yrs
+    description: >-
+      GPA: 110/110 cum laude
+      <br>
+      Thesis: Some Extensions of Flow Contrastive Estimation
+      <br>
+      Courses: 
+      Econometrics, Statistics and Probability, Machine Learning, 
+      Deep Learning, Algorithms, Optimal Control, 
+      Stochastic Process, Digital Privacy, 
+      Game Theory, Advanced Microeconomics
+  -
+    icon: sdu.png
+    school: Shandong University
+    degree: Bachelor of Economics
+    loc: Jinan, China
+    time: 2013 ~ 2017 &middot; 4 yrs
+    description: >-
+      GPA: 4.01/5.0
+      <br>
+      Major: Finance
+########### Experience
+experience:
+  -
+    icon: abc.png
+    company: Agricultural Bank of China
+    role: Analyst
+    loc: Beijing, China
+    time: 2021 ~ now &middot; 1yr
+    description: |
+      • Do research on sustainable finance.
+      <br>
+      • Edit news. 
+  -
+    icon: pingan.png
+    company: Ping An Technology
+    role: Product Manager Intern
+    loc: Shenzhen, China
+    time: 2020 &middot; 2mos
+    description: |
+      • Do research on edge computing.
+      <br>
+      • Inspect user behaviors from product data. 
+      <br>
+      • Draw prototypes with Axure.
+  -
+    icon: harvard.png
+    company: Harvard University
+    role: Research Assistant
+    loc: Cambridge, USA
+    time: 2017 &middot; 4mos
+    description: |
+      • Do research on Chinese economy.
+      <br>
+      • Manage data files with Python.
+
+##########################################################################################
+links:
+  -
+    icon: linkedin.png
+    name: LinkedIn
+    url: https://www.linkedin.com/in/lifeipro  
+  -
+    icon: github.svg
+    name: GitHub
+    url: https://github.com/lifeitech  
+  -
+    icon: mathstackex.png
+    name: Math StackExchange
+    url: https://math.stackexchange.com/users/324369/fei-li  
+  -
+    icon: leetcode.png
+    name: LeetCode
+    url: https://leetcode-cn.com/u/lifeitech/
+  -
+    icon: gmail.png
+    name: Email
+    url: mailto:fei.li.best@gmail.com
+
+programming:
+  -
+    icon: python.png
+    name: Python
+    url: 'https://github.com/lifeitech/leetcode'
+  -
+    icon: pytorch.png
+    name: PyTorch
+    url: 'https://github.com/lifeitech/nce'
+  -
+    icon: pyspark.png
+    name: PySpark
+    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/eda.py'
+  -
+    icon: sklearn.png
+    name: sklearn
+    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/model.py'
+  -
+    icon: pandas.png
+    name: pandas
+    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/data-aggregation.py'
+  -
+    icon: numpy.png
+    name: numpy
+    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/model.py'
+  -
+    icon: scrapy.png
+    name: scrapy
+    url: 'https://github.com/lifeitech/web-scraping'
+  -
+    icon: sql.png
+    name: sql
+    url: 'https://github.com/lifeitech/leetcode#sql'
+  -
+    icon: julia.png
+    name: Julia
+    url: 'https://lifei.tech/posts/julia'
+  -
+    icon: html.png
+    name: HTML
+    url: 'https://lifei.tech/'
+  -
+    icon: css.png
+    name: CSS
+    url: 'https://github.com/lifeitech/resume-html/style.scss'
+  -
+    icon: latex.png
+    name: LaTeX
+    url: 'https://lifei.tech/notes/'

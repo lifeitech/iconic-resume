@@ -1,0 +1,10 @@
+
+<div class="pgm-block">
+{% for link in site.programming %}
+<a class="pgm-item" href="{{link.url}}" title="{{link.name}}">
+  <span class=pgm-inner>
+     <img class="pgm-img" src="{{link.icon | prepend: "/imgs/"}}"> &nbsp; <span>{{link.name}}</span>
+  </span>
+</a>
+{% endfor %}
+</div>
