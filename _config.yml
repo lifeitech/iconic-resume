@@ -13,9 +13,9 @@ education:
       Thesis: Some Extensions of Flow Contrastive Estimation
       <br>
       Courses: 
-      Econometrics, Statistics and Probability, Machine Learning, 
+      Statistics and Probability, Machine Learning, 
       Deep Learning, Algorithms, Optimal Control, 
-      Stochastic Process, Digital Privacy, 
+      Stochastic Process, Digital Privacy, Econometrics,
       Game Theory, Advanced Microeconomics
   -
     icon: sdu.png
@@ -36,9 +36,7 @@ experience:
     loc: Beijing, China
     time: 2021 ~ now &middot; 1yr
     description: |
-      • Do research on sustainable finance.
-      <br>
-      • Edit news. 
+      I'm in the Strategic Planning department & Green Finance Research Institute. I conduct research on climate change, environmental protection and sustainable finance. We write book series on green finance development in different Chinese provinces, organize seminars, and regularly produce research reports. Besides research, I also edit and distribute sustainable finance news within our banking group.
   -
     icon: pingan.png
     company: Ping An Technology
@@ -46,11 +44,7 @@ experience:
     loc: Shenzhen, China
     time: 2020 &middot; 2mos
     description: |
-      • Do research on edge computing.
-      <br>
-      • Inspect user behaviors from product data. 
-      <br>
-      • Draw prototypes with Axure.
+      I completed a marketing research report on edge computing, in which I analyzed market players and their latest technologies. I also inspected production data of a data labeling platform. I successfully detected users' cheating behaviors, and provided solutions. I also drew prototypes using Axure.
   -
     icon: harvard.png
     company: Harvard University
@@ -58,9 +52,7 @@ experience:
     loc: Cambridge, USA
     time: 2017 &middot; 4mos
     description: |
-      • Do research on Chinese economy.
-      <br>
-      • Manage data files with Python.
+      I worked in a team to digitalize thousands of gazetteers at the Harvard-Yenching Library. We scanned thousands of book pages that contain data tables, extracted the data, and cleaned and organized the data with Python for economic research. I also presented an analysis of the population and education data in a seminar.
 
 ##########################################################################################
 links:
