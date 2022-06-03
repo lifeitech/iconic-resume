@@ -109,7 +109,7 @@ programming:
   -
     icon: sql.png
     name: sql
-    url: 'https://github.com/lifeitech/leetcode#sql'
+    url: 'https://github.com/lifeitech/sql-nowcoder'
   -
     icon: julia.png
     name: Julia
