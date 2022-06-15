@@ -53,7 +53,7 @@ experience:
     loc: Cambridge, USA
     time: 2017 &middot; 4mos
     description: |
-      I worked in a team to digitalize thousands of Chinese gazetteers at the Harvard-Yenching Library. I scanned thousands of book pages to extract the data, and cleaned and organized the data with Python. I also presented an analysis of the population and education data in a seminar at Harvard.
+      I worked in a team to digitalize thousands of Chinese gazetteers at the Harvard-Yenching Library. I scanned thousands of book pages to extract the data with the help of some computer vision software, and cleaned and organized the data with Python. I also presented an analysis of the population and education data in a seminar at Harvard.
 
 ##########################################################################################
 links:
