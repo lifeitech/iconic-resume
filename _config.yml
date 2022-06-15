@@ -4,7 +4,7 @@ education:
   -
     icon: bocconi.png
     school: Bocconi University
-    degree: MSc. in Data Science
+    degree: MSc. in Data Science 🎓
     loc: Milan, Italy
     time: 2018 ~ 2020 &middot; 2 yrs
     description: >-
@@ -13,20 +13,21 @@ education:
       Thesis: Some Extensions of Flow Contrastive Estimation
       <br>
       Courses: 
-      Statistics and Probability, Machine Learning, 
+      Database Systems, Statistics and Probability, Machine Learning, 
       Deep Learning, Algorithms, Optimal Control, 
       Stochastic Process, Digital Privacy, Econometrics,
       Game Theory, Advanced Microeconomics
   -
     icon: sdu.png
     school: Shandong University
-    degree: Bachelor of Economics
+    degree: Bachelor of Economics 🎓
     loc: Jinan, China
     time: 2013 ~ 2017 &middot; 4 yrs
     description: >-
       GPA: 4.01/5.0
       <br>
-      Major: Finance
+      Courses: Calculus, Linear Algebra, Probability and Statistics, Intermediate Microeconomics, Data Analytics with Python
+
 ########### Experience
 experience:
   -
@@ -36,7 +37,7 @@ experience:
     loc: Beijing, China
     time: 2021 ~ now &middot; 1yr
     description: |
-      I'm in the Strategic Planning department & Green Finance Research Institute. I conduct research on climate change, environmental protection and sustainable finance. We write book series on green finance development in different Chinese provinces, organize seminars, and regularly produce research reports. Besides research, I also edit and distribute sustainable finance news within our banking group.
+      I work in the Strategic Planning department and the Green Finance Research Institute at the headquarter. I conduct research on climate change, environmental protection and sustainable finance. We produce books and research reports, organize seminars and meetings. Besides research, I also edit and distribute news within the banking group.
   -
     icon: pingan.png
     company: Ping An Technology
@@ -44,7 +45,7 @@ experience:
     loc: Shenzhen, China
     time: 2020 &middot; 2mos
     description: |
-      I completed a marketing research report on edge computing, in which I analyzed market players and their latest technologies. I also inspected production data of a data labeling platform. I successfully detected users' cheating behaviors, and provided solutions. I also drew prototypes using Axure.
+      Worked on an AI-translation correction platform. Detected users' fraudulent behaviors from production data, and provided a simple model for automatic detection and prevention.  Drew prototypes with Axure. Finally, also completed a research report on edge computing, as well as several patent proposals.
   -
     icon: harvard.png
     company: Harvard University
@@ -52,7 +53,7 @@ experience:
     loc: Cambridge, USA
     time: 2017 &middot; 4mos
     description: |
-      I worked in a team to digitalize thousands of gazetteers at the Harvard-Yenching Library. We scanned thousands of book pages that contain data tables, extracted the data, and cleaned and organized the data with Python for economic research. I also presented an analysis of the population and education data in a seminar.
+      I worked in a team to digitalize thousands of Chinese gazetteers at the Harvard-Yenching Library. I scanned thousands of book pages to extract the data, and cleaned and organized the data with Python. I also presented an analysis of the population and education data in a seminar at Harvard.
 
 ##########################################################################################
 links:
