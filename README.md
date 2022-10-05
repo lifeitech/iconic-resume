@@ -10,8 +10,7 @@ This is a cv/resume template written in the Jekyll framework.
 
 - Two-column A4 layout.
 - LinkedIn style thumbnails and icons.
-- Can add links to social media, code repo, papers, projects etc.
-
+- Can add links to social media, code repos, papers, projects etc.
 - Separation of contents with formats. All contents are placed in [_config.yml](/_config.yml). All styles are defined in [style.scss](/style.scss). 
 - Lightweight.
 
@@ -33,7 +32,6 @@ This is a cv/resume template written in the Jekyll framework.
 5. `cd` to repository. Run `bundle exec jekyll serve`. 
 6. Go to `localhost:4000`.
 7. Right-click the page and click `print...` to save your resume in PDF.
-
 
 
 Note that by default, your browser add margins to the document when you save the webpage for PDF. This should work fine, but you can also customize the margins if you want to.

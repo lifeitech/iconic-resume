@@ -1,6 +1,5 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
@@ -17,13 +16,6 @@ html,body{
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
 }
-
-// .header { 
-//     display: flex;
-//     flex-direction: column;
-//     align-items: left;
-// 
-// }
 
 h1 {
     margin-top: 0pt;
@@ -97,7 +89,6 @@ p {
 
 
 // programming seciton
-
 .programming {
     display: flex;
     flex-direction: column;
@@ -125,7 +116,7 @@ p {
         } 
     }
 }
-}  // programming icons end
+}
 
 
 // hobby section
@@ -172,14 +163,10 @@ p {
 
     .time {
         float: right;
-        // position: relative;
-        // text-align: right;
         color: #BDC3C7;
         }
 
-} // class="entry" style end
-
-
+}
 
 // publication section
 .publication{ 
