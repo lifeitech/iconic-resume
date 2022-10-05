@@ -1,9 +1,9 @@
 
-<div class="pgm-block">
-{% for link in site.programming %}
-<a class="pgm-item" href="{{link.url}}" title="{{link.name}}">
-  <span class=pgm-inner>
-     <img class="pgm-img" src="{{link.icon | prepend: "/imgs/"}}"> &nbsp; <span>{{link.name}}</span>
+<div class="programming">
+{% for lan in site.programming %}
+<a class="item" href="{{lan.link}}" title="{{lan.name}}">
+  <span class="item-inner">
+     <img src="{{lan.icon | prepend: "/imgs/"}}"> &nbsp; <span>{{lan.name}}</span>
   </span>
 </a>
 {% endfor %}

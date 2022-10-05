@@ -1,184 +1,213 @@
 ---
 ---
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+$font-size: 11pt;
+$section-margin: 5pt;
 
 html,body{
     height: 297mm;
     width: 210mm; 
     margin: auto;
-    font-family: 'Noto Serif', serif;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
+// .header { 
+//     display: flex;
+//     flex-direction: column;
+//     align-items: left;
+// 
+// }
 
 h1 {
-    margin-bottom: 0;
-    .name {
-      font-size: 40pt;
-      font-weight: normal;
-      font-family: 'Pinyon Script', cursive;
+    margin-top: 0pt;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 35pt;
+    font-weight: normal;
+    font-family: 'Pinyon Script', cursive;
+}
 
-    }
+h2 {
+    font-size: $font-size + 5pt;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0;
+    // color: #4E4E4E;
+}
+
+a, a:visited {
+    // text-decoration: none;
+    color: #214485;
+}
+
+p {
+    font-size: $font-size;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    min-width: 140mm;
 }
 
 .contact {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    font-size: 14pt;
+    flex-direction: column;
+    gap: 7px;
 
-a, a:visited {
-    text-decoration: none;
-    color: inherit;
-}
+    i {
+        font-size: $font-size + 1pt;
+        color: black;       
+    }
 
-.link-img {
-    width: 20px;
-    height: 20px;
-    } 
-}
-
-.web-address {
-    font-size: 18pt;
-    font-family: 'Merriweather', serif;
-    margin-bottom: 5pt;
     a {
         text-decoration: none;
-        color: #214485;
-    }
+        display: flex;
+        flex-direction: row;
+        align-items: center;     
+        }
 }
 
-h2 {
-    font-size: 2rem;
-    font-weight: normal;
-    font-family: 'Dancing Script', cursive;
-    margin-top: 5px;
-    margin-left: 0;
-    span {
-        font-size: 1.2rem;
-        font-family: 'Noto Serif', serif;
-        color: gray;
-    }
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
+
 
 .section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
-    margin-top: 5px;
+    margin-bottom: $section-margin;
 }
 
-p {
+
+// language section
+.language {
+    margin: 5px;
+}
+
+
+// programming seciton
+
+.programming {
     display: flex;
-    flex-wrap: wrap;
-    width: 160mm;
-    font-size: 12pt;
-    margin-top: 5pt;
-    margin-bottom: 5pt;
-}
+    flex-direction: column;
 
-// programming icons
-.pgm-block {
-    display: flex;
-    flex-wrap: wrap;
-    width: 170mm;
-
-}
-
-.pgm-item {
+.item {
     display: inline-block;
-    line-height: 1rem;
-    font-size: 0.9rem;
+    line-height: 0.8rem;
+    font-size: 0.7rem;
     background: none;
-    border: 2px solid #ACAAAA;
-    border-radius: 0.8rem;
-    padding: 0.3rem 0.5rem;
-    margin: 0 0.35rem 0.5rem 0;
+    // border: 2px solid #ACAAAA;
+    // border-radius: 0.8rem;
+    // padding: 0.3rem 0.5rem;
+    margin: 5px;
     text-decoration: none;
-    color: gray;
+    // color: gray;
 
-.pgm-inner {
+.item-inner {
     display: flex;
     flex-direction: row;
     align-items: center;
-    }
 
-.pgm-img {
-    width: 20px;  // 20px
-    height: 20px;  // 20px
-    } 
+   img {
+    width: 20px;
+    height: 20px;
+        } 
+    }
+}
 }  // programming icons end
 
+
+// hobby section
+.hobby {
+    margin: 5px;
+}
+
+
+// education and experience entries
 .entry {
-    margin-top: 12pt;
-    margin-bottom: 12pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 
-.entry-img {
-    height: 44px;
-    width: 44px;
-    margin-right: 5px;
-    }
+    img {
+        height: 44px;
+        width: 44px;
+        margin-right: 5px;
+        }
 
-.title {
-    font-size: 14pt;
-    font-weight: 600;
+    .title {
+        font-size: $font-size + 1pt;
+        font-weight: 600;
+        }
 
-    }
-.subtitle {
-    font-size: 12pt;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    }
-.entry-items {
-    display: flex;
-    flex-direction: column;
-    }
+    .subtitle {
+        font-size: $font-size;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        }
 
-.loc {
-    float: right;
-    color: #BDC3C7;
-    }
-.time {
-    float: right;
-    position: relative;
-    text-align: right;
-    color: #BDC3C7;
-    }
+    .entry-items {
+        display: flex;
+        flex-direction: column;
+        }
+
+    .loc {
+        float: right;
+        color: #BDC3C7;
+        }
+
+    .time {
+        float: right;
+        // position: relative;
+        // text-align: right;
+        color: #BDC3C7;
+        }
 
 } // class="entry" style end
 
-.hr-fade {
-    border: 0;
-    padding-top: 1px;
-    background: linear-gradient(to right, transparent, #d0d0d5, transparent);
+
+
+// publication section
+.publication{ 
+ padding-left: 49px;
+ i {
+    font-size: $font-size + 1pt;     
+    }
 }
 
-footer {
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    color: gray;
-    font-size: 10pt;
 
-    a, a:visited {
-        text-decoration: none;
-        color: #214485;
-    } 
+// project section
+.project{
+    padding-left: 49px;
+    img {
+    width: 20px;
+    height: 20px;
+    }
 }
+
+
+.vr {
+  // border-left: 0;
+  border: 0;
+  padding-left: 2px;
+  background: linear-gradient(to bottom, transparent, #FF8F8F, transparent);  // #d0d0d5
+  height: 100vh;
+}
+
 
 @media print {
     body{

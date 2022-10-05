@@ -1,129 +1,176 @@
-name: Fei Li
-########### Education
-education:
-  -
-    icon: bocconi.png
-    school: Bocconi University
-    degree: MSc. in Data Science 🎓
-    loc: Milan, Italy
-    time: 2018 ~ 2020 &middot; 2 yrs
-    description: >-
-      GPA: 110/110 cum laude
-      <br>
-      Thesis: Some Extensions of Flow Contrastive Estimation
-      <br>
-      Courses: 
-      Database Systems, Statistics and Probability, Machine Learning, 
-      Deep Learning, Algorithms, Optimal Control, 
-      Stochastic Process, Digital Privacy, Econometrics,
-      Game Theory, Advanced Microeconomics
-  -
-    icon: sdu.png
-    school: Shandong University
-    degree: Bachelor of Economics 🎓
-    loc: Jinan, China
-    time: 2013 ~ 2017 &middot; 4 yrs
-    description: >-
-      GPA: 4.01/5.0
-      <br>
-      Courses: Calculus, Linear Algebra, Probability and Statistics, Intermediate Microeconomics, Data Analytics with Python
+name: Josh Lee
 
-########### Experience
-experience:
-  -
-    icon: abc.png
-    company: Agricultural Bank of China
-    role: Analyst
-    loc: Beijing, China
-    time: 2021 ~ now &middot; 1yr
-    description: |
-      I work in the Strategic Planning department and the Green Finance Research Institute at the headquarter. I conduct research on climate change, environmental protection and sustainable finance. We produce books and research reports, organize seminars and meetings. Besides research, I also edit and distribute news within the banking group.
-  -
-    icon: pingan.png
-    company: Ping An Technology
-    role: Product Manager Intern
-    loc: Shenzhen, China
-    time: 2020 &middot; 2mos
-    description: |
-      Worked on an AI-translation correction platform. Detected users' fraudulent behaviors from production data, and provided a simple model for automatic detection and prevention.  Drew prototypes with Axure. Finally, also completed a research report on edge computing, as well as several patent proposals.
-  -
-    icon: harvard.png
-    company: Harvard University
-    role: Research Assistant
-    loc: Cambridge, USA
-    time: 2017 &middot; 4mos
-    description: |
-      I worked in a team to digitalize thousands of Chinese gazetteers at the Harvard-Yenching Library. I scanned thousands of book pages to extract the data with the help of some computer vision software, and cleaned and organized the data with Python. I also presented an analysis of the population and education data in a seminar at Harvard.
+headline: >-
+  Headline goes here. Ex: Data Science degree from Harvard with 3 years of experience in software development.
+  Passionate about artificial intelligence and more.
 
-##########################################################################################
-links:
+publication: true
+project: true
+
+contact:
   -
-    icon: linkedin.png
-    name: LinkedIn
-    url: https://www.linkedin.com/in/lifeipro  
+    icon: 'bi bi-globe'
+    name: example.com
+    url: 'https://www.example.com'  # replace with your own address
   -
-    icon: github.svg
-    name: GitHub
-    url: https://github.com/lifeitech  
+    icon: 'bi bi-envelope'
+    name: name@gmail.com
+    url: 'mailto:username@gmail.com'  # replace with your own email
   -
-    icon: mathstackex.png
-    name: Math StackExchange
-    url: https://math.stackexchange.com/users/324369/fei-li  
+    icon: 'bi bi-linkedin'
+    name: Josh Lee
+    url: 'https://www.linkedin.com/in/username'  # replace with your own address
   -
-    icon: leetcode.png
-    name: LeetCode
-    url: https://leetcode-cn.com/u/lifeitech/
+    icon: 'bi bi-github'
+    name: joshtech
+    url: 'https://github.com/username'  # replace with your own address
   -
-    icon: gmail.png
-    name: Email
-    url: mailto:fei.li.best@gmail.com
+    icon: 'bi bi-youtube'
+    name: joshchannel
+    url: 'https://youtube.com'  # replace with your own address
+
+language:
+  - English
+  - Italian
+  - Swedish
+  - Japanese
+
 
 programming:
   -
     icon: python.png
     name: Python
-    url: 'https://github.com/lifeitech/leetcode'
+    link: 'https://github.com/'  # replace with your own repo address
   -
     icon: pytorch.png
     name: PyTorch
-    url: 'https://github.com/lifeitech/nce'
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: tf.png
+    name: TensorFlow
+    link: 'https://github.com/'  # replace with your own repo address
   -
     icon: pyspark.png
     name: PySpark
-    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/eda.py'
+    link: 'https://github.com/'  # replace with your own repo address
   -
-    icon: sklearn.png
-    name: sklearn
-    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/model.py'
-  -
-    icon: pandas.png
-    name: pandas
-    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/data-aggregation.py'
-  -
-    icon: numpy.png
-    name: numpy
-    url: 'https://github.com/lifeitech/math-stack-analysis/blob/master/code/model.py'
-  -
-    icon: scrapy.png
-    name: scrapy
-    url: 'https://github.com/lifeitech/web-scraping'
-  -
-    icon: sql.png
-    name: sql
-    url: 'https://github.com/lifeitech/sql-nowcoder'
-  -
-    icon: julia.png
-    name: Julia
-    url: 'https://lifei.tech/posts/julia'
+    icon: js.png
+    name: JavaScript
+    link: 'https://github.com/'  # replace with your own repo address
   -
     icon: html.png
     name: HTML
-    url: 'https://lifei.tech/'
+    link: 'https://github.com/'  # replace with your own repo address
   -
     icon: css.png
     name: CSS
-    url: 'https://github.com/lifeitech/resume/blob/master/style.scss'
+    link: 'https://github.com/'  # replace with your own repo address
   -
-    icon: latex.png
-    name: LaTeX
-    url: 'https://lifei.tech/notes/'
+    icon: swift.png
+    name: Swift
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: cpp.png
+    name: C++
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: julia.png
+    name: Julia
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: sql.png
+    name: sql
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: git.png
+    name: git
+    link: 'https://github.com/'  # replace with your own repo address
+
+
+
+hobby:
+  - Swimming
+  - Hiking
+  - Cooking
+
+
+########### Education
+education:
+  -
+    icon: harvard.png
+    school: Harvard University
+    degree: MSc. in Data Science
+    loc: Boston, MA
+    time: 2018 ~ 2020 &middot; 2 yrs
+    description: >-
+      GPA: 4.0/4.0
+      <br>
+      Thesis: Your Thesis Title Here
+      <br>
+      Other information here.
+  -
+    icon: cmu.png
+    school: Carnegie Mellon University
+    degree: BSc. in Computer Science
+    loc: Pittsburgh, PA
+    time: 2014 ~ 2018 &middot; 4 yrs
+    description: >-
+      GPA: 4.0/4.0
+      <br>
+      Other information here.
+
+########### Experience
+experience:
+  -
+    icon: google.png
+    company: Google
+    role: Machine Learning Engineer
+    loc: Mountain View, CA
+    time: 2022 ~ now
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Cras ultricies feugiat vehicula. Aenean nulla ipsum, sagittis ac felis vitae, facilisis maximus justo. Nunc ipsum ex, molestie vel velit eu, aliquet posuere velit. In dignissim volutpat ante, non lacinia eros egestas non. Mauris hendrerit orci sit amet metus facilisis, nec sollicitudin justo consectetur. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+  -
+    icon: amazon.png
+    company: Amazon
+    role: Software Developer
+    loc: Seattle, WA
+    time: 2020 ~ 2022 &middot; 2yrs
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Cras ultricies feugiat vehicula. Aenean nulla ipsum, sagittis ac felis vitae, facilisis maximus justo. Nunc ipsum ex, molestie vel velit eu, aliquet posuere velit. In dignissim volutpat ante, non lacinia eros egestas non. Mauris hendrerit orci sit amet metus facilisis, nec sollicitudin justo consectetur. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+
+########### Publications
+publication:
+  -
+    title: An Awesome Paper with an Awesome Title 2
+    author: Josh Lee
+    journal: International Conference on Machine Learning (ICML)
+    year: 2022
+    link: 'http://arxiv.org/'
+  -
+    title: An Awesome Paper with an Awesome Title 1
+    author: Josh Lee
+    journal: International Conference on Learning Representations (ICLR)
+    year: 2021
+    link: 'http://arxiv.org/'
+
+########### Projects
+project:
+  -
+    icon: github.svg
+    name: awesome-project-one
+    link: 'https://github.com/'
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+  -
+    icon: github.svg
+    name: awesome-project-two
+    link: 'https://github.com/'
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
+
+
+
+
+
+
+

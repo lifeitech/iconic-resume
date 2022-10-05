@@ -11,42 +11,74 @@
 
 <body>
 
-<div class="header">
-<h1><span class="name">{{site.name}}</h1>
-<span class='web-address'><a href="https://lifei.tech" title="Fei Li's Website">www.lifei.tech</a></span>
-{% include contact.html %}
-</div>
 
-<hr class="hr-fade">
+<h1>{{site.name}}</h1>
+<p>{{site.headline}}</p>
 
-<div class="section">
-    
-    <h2>Education</h2>
-    <div class="block">
-        {% include education.html %}
+<!-- two columns -->
+<div class="columns">
+
+<!-- left column -->
+<div class="left">
+
+    <div class="section">
+        <h2>Contacts</h2>
+        {% include contact.html %}    
     </div>
 
-</div>
+    <div class="section">
+        <h2>Languages</h2>
+        {% include language.html %}
+    </div>
 
-<div class="section">
-    
-    <h2>Programming <span> &emsp; (click me👉)</span></h2>
-    <div class="block">
+    <div class="section">
+        <h2>Programming</h2>
         {% include programming.html %}
     </div>
 
-</div>
-
-<div class="section">
-    
-    <h2>Experience</h2>
-    <div class="block">
-        {% include experience.html %}
+    <div class="section">
+        <h2>Hobbies</h2>
+        {% include hobby.html %}
     </div>
 
 </div>
+<!-- left column end -->
 
-{% include footer.html %}
+<div class="vr"></div>
+
+<!-- right column -->
+<div class="right">
+    
+<div class="section">
+    <h2>Education</h2>
+    {% include education.html %}
+</div>
+
+<div class="section">
+    <h2>Experience</h2>
+    {% include experience.html %}
+</div>
+
+
+{% if site.publication %}
+    <div class="section">
+        <h2>Publications</h2>
+        {% include publication.html %}
+    </div>
+{% endif %}
+
+{% if site.project %}
+    <div class="section">
+        <h2>Projects</h2>
+        {% include project.html %}
+    </div>
+{% endif %}
+
+</div>
+<!-- right column end -->
+
+</div>
+<!-- two columns end -->
 
 </body>
 

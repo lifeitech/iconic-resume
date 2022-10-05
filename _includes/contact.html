@@ -1,7 +1,8 @@
-<span class="contact">
-{% for link in site.links %}
-<a href="{{link.url}}" title="{{link.name}}">
-     <img class="link-img" src="{{link.icon | prepend: "/imgs/"}}">
+<div class="contact">
+{% for c in site.contact %}
+<a href="{{c.url}}" title="{{c.name}}">
+     <i class="{{c.icon}}"></i>
+     <span>&nbsp;{{c.name}}</span> 
 </a>
 {% endfor %}
-</span>
+</div>

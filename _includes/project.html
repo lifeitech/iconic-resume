@@ -1,0 +1,9 @@
+<div class="project">
+    {% for p in site.project %}
+
+    <img class="project-icon" src="{{p.icon | prepend: "/imgs/"}} "> 
+    <a href="{{p.link}}" title="{{p.name}}">{{p.name}}</a>
+    <p>{{p.description}}</p>
+    
+    {% endfor %}
+</div>
