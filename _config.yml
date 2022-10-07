@@ -35,7 +35,6 @@ language:
   - Swedish
   - Japanese
 
-
 programming:
   -
     icon: python.png
@@ -86,13 +85,10 @@ programming:
     name: git
     link: 'https://github.com/'  # replace with your own repo address
 
-
-
 hobby:
   - Swimming
   - Hiking
   - Cooking
-
 
 ########### Education
 education:
