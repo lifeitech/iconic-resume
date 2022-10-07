@@ -16,7 +16,7 @@ Iconic Resume is a cv/resume template written in the Jekyll framework.
 
 ## Use the template without Ruby and Jekyll Installation
 
-1. [Fork](https://github.com/lifeitech/resume/fork) this repository.
+1. Fork this repository.
 2. Create a `gh-pages` branch.
 3. Go to Settings and select `gh-pages` as GitHub Pages source.
 4. Edit `_config.yml`. Replace the dummy data with your own career details. Put your own icons in the `imgs` folder.
