@@ -1,8 +1,8 @@
 <div class="publication">
-    {% for p in site.publication %}
+{% for p in site.publication %}
     <p>
     <i class="bi bi-file-earmark-text-fill"></i>&nbsp;{{p.author}},&nbsp; <b>{{p.title}}</b>,&nbsp; <i>{{p.journal}}</i>,&nbsp; {{p.year}}&nbsp;
     <a href="{{p.link}}" title="{{p.title}}">[arxiv]</a>
     </p>
-    {% endfor %}
+{% endfor %}
 </div>

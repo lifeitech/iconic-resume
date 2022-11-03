@@ -1,9 +1,9 @@
 <div class="programming">
 {% for lan in site.programming %}
-<a class="item" href="{{lan.link}}" title="{{lan.name}}">
-  <span class="item-inner">
-     <img src="{{lan.icon | prepend: "/imgs/"}}"> &nbsp; <span>{{lan.name}}</span>
-  </span>
-</a>
+  <a class="item" href="{{lan.link}}" title="{{lan.name}}">
+    <span class="item-inner">
+       <img src="{{lan.icon | prepend: "/imgs/"}}"> &nbsp; <span>{{lan.name}}</span>
+    </span>
+  </a>
 {% endfor %}
 </div>

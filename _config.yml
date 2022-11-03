@@ -1,11 +1,8 @@
 name: Josh Lee
 
 headline: >-
-  Headline goes here. Ex: Data Science degree from Harvard with 3 years of experience in software development.
+  Headline goes here. Example: Data Science degree from Harvard with 3 years of experience in software development.
   Passionate about artificial intelligence and more.
-
-publication: true
-project: true
 
 contact:
   -
@@ -45,24 +42,32 @@ programming:
     name: PyTorch
     link: 'https://github.com/'  # replace with your own repo address
   -
-    icon: tf.png
-    name: TensorFlow
-    link: 'https://github.com/'  # replace with your own repo address
-  -
     icon: pyspark.png
     name: PySpark
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: fastapi.png
+    name: FastAPI
     link: 'https://github.com/'  # replace with your own repo address
   -
     icon: js.png
     name: JavaScript
     link: 'https://github.com/'  # replace with your own repo address
   -
-    icon: html.png
-    name: HTML
+    icon: svelte.png
+    name: Svelte
     link: 'https://github.com/'  # replace with your own repo address
   -
-    icon: css.png
-    name: CSS
+    icon: react.png
+    name: React
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: nextjs.svg
+    name: Next.js
+    link: 'https://github.com/'  # replace with your own repo address
+  -
+    icon: vite.png
+    name: Vite
     link: 'https://github.com/'  # replace with your own repo address
   -
     icon: swift.png
@@ -71,10 +76,6 @@ programming:
   -
     icon: cpp.png
     name: C++
-    link: 'https://github.com/'  # replace with your own repo address
-  -
-    icon: julia.png
-    name: Julia
     link: 'https://github.com/'  # replace with your own repo address
   -
     icon: sql.png
@@ -115,7 +116,7 @@ education:
       <br>
       Other information here.
 
-########### Experience
+########### Experience (optional)
 experience:
   -
     icon: google.png
@@ -134,7 +135,7 @@ experience:
     description: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum elit justo, vel tristique erat ornare in. Cras ultricies feugiat vehicula. Aenean nulla ipsum, sagittis ac felis vitae, facilisis maximus justo. Nunc ipsum ex, molestie vel velit eu, aliquet posuere velit. In dignissim volutpat ante, non lacinia eros egestas non. Mauris hendrerit orci sit amet metus facilisis, nec sollicitudin justo consectetur. Aenean aliquet velit egestas elementum efficitur. Cras sit amet fringilla arcu.
 
-########### Publications
+########### Publications (optional)
 publication:
   -
     title: An Awesome Paper with an Awesome Title 2
@@ -149,7 +150,7 @@ publication:
     year: 2021
     link: 'http://arxiv.org/'
 
-########### Projects
+########### Projects (optional)
 project:
   -
     icon: github.svg

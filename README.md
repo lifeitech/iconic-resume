@@ -4,7 +4,7 @@
 
 [Demo](https://iconic-resume.netlify.app/) | [PDF](/resume.pdf)
 
-Iconic Resume is a cv/resume template written in the Jekyll framework. 
+Iconic Resume is a cv/resume template written in the [Jekyll](https://jekyllrb.com/) framework. 
 
 ## Features
 
@@ -36,8 +36,8 @@ Iconic Resume is a cv/resume template written in the Jekyll framework.
 
 ## Things to Note
 
-1. By default, your browser add margins to the document when you save the webpage for PDF. This should work fine, but you can also customize the margins if you want to.
-2. Be sure to use square images.
+1. By default, your browser add margins to the document when you save the webpage for PDF. This should work fine, but you can also customize the margins in your browser print setting popup if you want to.
+2. Be sure to use **square** (e.g. 512x512) images for icons and logos.
 
 ## Contributions
 
