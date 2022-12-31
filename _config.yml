@@ -32,7 +32,7 @@ language:
   - Swedish
   - Japanese
 
-programming:
+techstack:
   -
     icon: python.png
     name: Python
