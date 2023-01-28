@@ -1,6 +1,6 @@
 <div class="project">
 {% for p in site.project %}
-    <img class="project-icon" src="{{p.icon | prepend: "/imgs/"}} "> 
+    <img class="project-icon" src="{{p.icon | prepend: '/imgs/' | prepend: site.baseurl}} "> 
     <a href="{{p.link}}" title="{{p.name}}">{{p.name}}</a>
     <p>{{p.description}}</p>
 {% endfor %}
