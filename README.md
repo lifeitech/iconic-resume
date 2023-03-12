@@ -17,19 +17,11 @@ Iconic Resume is a cv/resume template written in the [Jekyll](https://jekyllrb.c
 ## Use this template WITHOUT Ruby and Jekyll Installation
 
 1. Fork this repository.
-
-2. Create a `gh-pages` branch.
-
-3. Edit `_config.yml` (in the `gh-pages` branch). Replace the dummy data with your own career details. Put your own logos in the `imgs` folder. 
-
-   ***Since you are going to deploy a project page instead of a personal page, be sure to uncomment the `baseurl`  on the first line in `_config.yml`.***
-
+2. Create a `gh-pages` branch. 
+3. Edit `_config.yml` in the `gh-pages` branch. **Uncomment `baseurl: '/iconic-resume'`**. Replace the dummy data with your own career details. Put your own logos in the `imgs` folder. 
 4. Go to `Settings -> Pages` page, and select `gh-pages` as GitHub Pages source.
-
 5. Wait a few moments until the `Settings -> Pages` page says that "Your site is live at https://username.github.io/iconic-resume/". Go to that address, where `username` is your GitHub username.
-
 6. Right-click the page and click `print...` to save your resume in PDF.
-
 7. When you re-edit `_config.yml` or any other files, and commit the change, it will automatically trigger a GitHub Action to re-build the page. Wait until it finishes, before you refresh the https://username.github.io/iconic-resume/ link. You can view the build progress under the "Actions" tab in your forked repository.
 
 ## Use this template locally
